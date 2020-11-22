@@ -103,8 +103,8 @@ void PrintLastValuesOnLCD()
 
   lcd.setCursor(0, 3);
   lcd.print(LastWasserdampfgehalt); //g/m^3
-  lcd.setCursor(17, 3);
-  lcd.print("g/m");
+  lcd.setCursor(16, 3);
+  lcd.print("g/m3");
 }
 
 void PrintMinMaxValuesOnLCD()
